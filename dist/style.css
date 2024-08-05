@@ -681,12 +681,12 @@ video {
   width: 100%;
 }
 
-.w-\[500px\] {
-  width: 500px;
+.w-\[400px\] {
+  width: 400px;
 }
 
-.w-\[800px\] {
-  width: 800px;
+.w-\[350px\] {
+  width: 350px;
 }
 
 .max-w-4xl {
@@ -878,6 +878,30 @@ video {
 
 .bg-\[url\(images\/services\/toursandtravel\.jpeg\)\] {
   background-image: url(images/services/toursandtravel.jpeg);
+}
+
+.bg-\[url\(\.\/dist\/images\/services\/adventure_toursim\.jpeg\)\] {
+  background-image: url(./dist/images/services/adventure_toursim.jpeg);
+}
+
+.bg-\[url\(\.\/dist\/images\/services\/event_food\.jpg\)\] {
+  background-image: url(./dist/images/services/event_food.jpg);
+}
+
+.bg-\[url\(\.\/dist\/images\/services\/hotels\.jpg\)\] {
+  background-image: url(./dist/images/services/hotels.jpg);
+}
+
+.bg-\[url\(\.\/dist\/images\/services\/toursandtravel\.jpeg\)\] {
+  background-image: url(./dist/images/services/toursandtravel.jpeg);
+}
+
+.bg-\[url\(dist\/images\/services\/adventure_toursim\.jpeg\)\] {
+  background-image: url(dist/images/services/adventure_toursim.jpeg);
+}
+
+.bg-\[url\(dist\/images\/services\/event_food\.jpg\)\] {
+  background-image: url(dist/images/services/event_food.jpg);
 }
 
 .bg-cover {
@@ -1225,14 +1249,6 @@ video {
     padding-right: 2.5rem;
   }
 
-  .sm\:pl-5 {
-    padding-left: 1.25rem;
-  }
-
-  .sm\:pl-10 {
-    padding-left: 2.5rem;
-  }
-
   .sm\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
@@ -1337,20 +1353,12 @@ video {
   display: flex;
 }
 
-.\[\&\>div\]\:snap-start>div {
-  scroll-snap-align: start;
-}
-
 .\[\&\>div\]\:flex-col>div {
   flex-direction: column;
 }
 
 .\[\&\>div\]\:items-center>div {
   align-items: center;
-}
-
-.\[\&\>div\]\:border-r-4>div {
-  border-right-width: 4px;
 }
 
 .\[\&\>div\]\:p-1>div {
@@ -1389,10 +1397,6 @@ video {
     font-size: 1.25rem;
     line-height: 1.75rem;
   }
-}
-
-.\[\&_div\]\:snap-start div {
-  scroll-snap-align: start;
 }
 
 .\[\&_img\]\:w-\[30px\] img {
