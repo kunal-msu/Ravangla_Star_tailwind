@@ -11,7 +11,6 @@ module.exports = {
         'rs-white':'#ffffff',
         'rs-beige-c':'#afded5',
         'rs-beige-c2':'#d5afde',
-
       },
       fontFamily :{ 
         'pb': ['poppins-bold'], 
